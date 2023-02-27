@@ -13,7 +13,8 @@
 6. Поодинокі теги
 7.  Вкладеність тегів
 8.  Ставимо VSC https://code.visualstudio.com/
-   **Плагіни**
+   
+   *Плагіни*
     - Live Server
     - Auto Close Tag
     - Auto Rename Tag
