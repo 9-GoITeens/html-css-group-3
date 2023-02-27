@@ -13,7 +13,19 @@
 6. Поодинокі теги
 7.  Вкладеність тегів
 8.  Ставимо VSC https://code.visualstudio.com/
+   **Плагіни**
+    - Live Server
+    - Auto Close Tag
+    - Auto Rename Tag
+    - Bracket Pair Color DLW
+    - Formatting Toggle
+    - HTML CSS Support
+    - Prettier - Code formatter
+    - Russian Language Pack for Visua
+
 9.  Реэструэмось у figma https://www.figma.com/login
-10. Домашнє завдання
+10. Домашня робота. Для скрін і запису відео використовуємо 
+   https://monosnap.com/
+
     
   
