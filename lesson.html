@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вступ до HTML</title>
+</head>
+
+<body>
+
+    <!-- Теги -->
+
+    <article>
+        <h1>Заголовок</h1>
+        <p>Контент</p>
+    </article>
+
+
+    <!-- Коментарі -->
+
+    <!-- Атрибути -->
+    <a href="https://google.com" class="link">...</a>
+
+    <img src="cat.jpg" alt="cute cat" />
+
+    <input type="text" name="user_name" />
+
+    <button type="submit">...</button>
+
+    <p class="text">...</p>
+
+    <!--Розглянемо деякі атрибути тега <a>  -->
+    <a href="http://google.com" target="_blank" title="Пошукова система Google">
+        Google.com
+    </a>
+
+    <!-- Розглянемо деякі атрибути тега <img> -->
+
+    <!-- Абсолютний шлях -->
+    <img src="https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_960_720.jpg" alt="cute cat" />
+    <!-- Відносний шлях -->
+    <img src="./images/cat.jpg" alt="cat">
+
+
+    <!-- Парні теги -->
+    <article>
+        <h1>Коротко про парні теги</h1>
+        <p>
+            Більшість тегів парні. Їх контент укладений між відкриваючим і
+            закриваючим тегом.
+        </p>
+    </article>
+
+    <!-- Поодинокі теги -->
+    <!-- Метаінформація про кодування -->
+    <meta charset="utf-8" />
+
+    <!-- Поле вводу -->
+    <input type="text" />
+
+    <!-- Зображення -->
+    <img src="cat.jpg" alt="cool cat" />
+
+
+    <!-- Вкладеність тегів -->
+    <p>
+        <a href="squoosh.app">Squoosh</a> - сервіс <em>оптимизації</em> зображень.
+    </p>
+
+    <p>Переваги</p>
+    <ul>
+        <li>Працює в браузері</li>
+        <li>Не грузитю систему</li>
+        <li>Зручний інтерфейс</li>
+    </ul>
+
+    <!-- А в цій версії є проблеми. -->
+    <!-- Не дотримується порядок закриття тегів -->
+    <p><a href="squoosh.app">Squoosh</a> - сервіс <em></a>оптимизації</p> зображень.</em>
+
+    <!-- Не дотримуються специфічні правила вкладення тегів -->
+    <ul>
+        <p>Переваги</p>
+        <li>Працює в браузері</li>
+        <li>Не грузить систему</li>
+        <li>Зручний інтерфейс</li>
+    </ul>
+</body>
+
+</html>
