@@ -10,12 +10,12 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <nav>
             <ul>
-                <li><a href="#cat">Котики</a></li>
-                <li><a href="#dog">Собачки</a></li>
-                <li><a href="#hamster">Хом’ячки</a></li>
+                <li><a href="#cat" class="link">Котики</a></li>
+                <li><a href="#dog" class="link">Собачки</a></li>
+                <li><a href="#hamster" class="link">Хом’ячки</a></li>
 
             </ul>
         </nav>
@@ -24,24 +24,24 @@
         <h1>Каскад. Ієрархія. Наслідування. Псевдокласи.</h1>
     </section>
     <!--Каскад Специфічність  -->
-    <section>
-        <h2>Каскад. Специфічність.</h2>
+    <section class="dark-bg caskading">
+        <h2 class="title-caskading">Каскад. Специфічність.</h2>
         <img src="./images/cat.jpg" alt="cat" width="500" height="300" />
         <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-        <h3 id="cat">Котики</h3>
-        <p>
+        <h3 id="cat" class="title-section">Котики</h3>
+        <p class="caskading-tex">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nobis distinctio dolores,
             aut quis fugiat sed. Enim, ratione perferendis, impedit voluptatibus quas autem minima,
             quia exercitationem deleniti dolores itaque? Blanditiis?
         </p>
-        <button type="button">button</button>
-        <button type="submit">submit</button>
+        <button class="button" type="button">button</button>
+        <button class="button" type="submit">submit</button>
     </section>
 
     <section>
         <img src="./images/dog.jpeg" alt="dog" width="500" height="500" />
         <a href="./images/dog.jpeg" download="">Скачати зображення</a>
-        <h2 id="dog">Собачки</h2>
+        <h2 id="dog" class="title-section">Собачки</h2>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi mollitia corporis corrupti
             molestias obcaecati qui, veniam temporibus, cumque officiis aliquam consectetur dolores
@@ -54,8 +54,8 @@
     <!-- <section class="section" id="section" style="color: black;"> -->
     <section class="section">
         <img src="./images/hamster.jpg" alt="hamster" width="500" height="300" />
-        <a href="">Дізнатись більше</a>
-        <h2 id="hamster">Хом’ячки</h2>
+        <a href="" class="link-instagram">Дізнатись більше</a>
+        <h2 id="hamster" class="title-section">Хом’ячки</h2>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. At consectetur nesciunt earum rerum, aspernatur
             quaerat impedit voluptatum possimus modi omnis ullam repudiandae sint, molestias animi, optio cupiditate
@@ -82,7 +82,7 @@
     <!-- Домашня робота -->
     <section>
         <h1 class="title">Заголовок</h1>
-        <ul>
+        <ul class="list">
             <li class="el-1">Елемент-1</li>
             <li class="el-2">Елемент-2</li>
             <li class="el-3">Елемент-3</li>

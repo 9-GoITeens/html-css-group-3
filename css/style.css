@@ -1,26 +1,65 @@
-.section {
-    color: red;
+body{
+    background-color: #b5d71f;
 }
 
-section {
-    color: blue;
-} 
+.header .link{
+color: red;
+}
 
- #section{
+.dark-bg{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.dark-bg .title-section{
+    color: white;
+}
+
+.title-section{
+
+    color: blueviolet;
+}
+
+.link-instagram:visited{
+color: red;
+}
+
+.button{
+    cursor: pointer;
+    background-color: #eb1d1d;
+}
+
+.button:hover,
+.button:focus{
+    background-color: green;
+}
+
+.button:active{
+    background-color: wheat;
+}
+
+/* .section {
+    color: red;
+} */
+
+/* section {
+    color: blue;
+}  */
+
+ /* #section{
     color: green;
-} 
+}  */
 
 /* section .section{
     color: aqua;
 }   */
 
-h3 {
-    color: red ;
-}
-
 /* h3 {
- color: blue !important; 
+    color: red ;
 } */
+
+ /* h3 {
+ color: blue !important; 
+}  */
 
 /* HW */
 .title{
@@ -38,4 +77,9 @@ h3 {
 
 .el-3{
     color: blue;
+}
+
+.list,
+.section{
+    background-color: rgba(0, 255, 255, 0.8);
 }
