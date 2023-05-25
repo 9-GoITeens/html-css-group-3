@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Властивість align-items -->
+    <header class="page-header">
+        <a href="" class="logo">Логотип</a>
+        <ul class="menu">
+            <li class="item"><a href="" class="link">Головна</a></li>
+            <li class="item"><a href="" class="link">Блог</a></li>
+            <li class="item"><a href="" class="link">Підкасти</a></li>
+            <li class="item"><a href="" class="link">Контакти</a></li>
+        </ul>
+    </header>
+
+
+    <!-- display: flex | inline-flex -->
+    <section class="section">
+        <h2 class="section-title">display: flex | inline-flex</h2>
+        <h3 class="title">display: flex</h3>
+        <p class="section-text">Створює flex-контейнер, блоковий</p>
+        <ul class="menu1 flex">
+            <li class="item"><a href="" class="link">Головна</a></li>
+            <li class="item"><a href="" class="link">Блог</a></li>
+            <li class="item"><a href="" class="link">Підкасти</a></li>
+            <li class="item"><a href="" class="link">Контакти</a></li>
+        </ul>
+        <h3 class="title">inline-flex</h3>
+        <p class="section-text">Створює flex-контейнер, рядковий</p>
+        <ul class="menu1 inline-flex">
+            <li class="item"><a href="" class="link">Головна</a></li>
+            <li class="item"><a href="" class="link">Блог</a></li>
+            <li class="item"><a href="" class="link">Підкасти</a></li>
+            <li class="item"><a href="" class="link">Контакти</a></li>
+        </ul>
+    </section>
+
+    <!-- Властивість flex-direction -->
+    <section class="section">
+        <h2 class="section-title">flex-direction</h2>
+        <h3 class="title">flex-direction: row</h3>
+        <p class="section-text">вісь починається зліва і закінчується справа. Це значення за замовчуванням.</p>
+        <ul class="menu2">
+            <li class="item"><a href="" class="link">Home page</a></li>
+            <li class="item"><a href="" class="link">Blog</a></li>
+            <li class="item"><a href="" class="link">Podcasts</a></li>
+            <li class="item"><a href="" class="link">Contacts</a></li>
+        </ul>
+        <h3 class="title">flex-direction: row-reverse</h3>
+        <p class="section-text">вісь починається справа і закінчується зліва.</p>
+        <ul class="menu2 reversed">
+            <li class="item"><a href="" class="link">Home page</a></li>
+            <li class="item"><a href="" class="link">Blog</a></li>
+            <li class="item"><a href="" class="link">Podcasts</a></li>
+            <li class="item"><a href="" class="link">Contacts</a></li>
+        </ul>
+        <h3 class="title">flex-direction: column</h3>
+        <p class="section-text">головна вісь стає вертикально, початок зверху і кінець знизу.</p>
+        <ul class="menu2 column">
+            <li class="item"><a href="" class="link">Home page</a></li>
+            <li class="item"><a href="" class="link">Blog</a></li>
+            <li class="item"><a href="" class="link">Podcasts</a></li>
+            <li class="item"><a href="" class="link">Contacts</a></li>
+        </ul>
+        <h3 class="title">flex-direction: column-reverse</h3>
+        <p class="section-text">головна вісь стає вертикально, початок знизу і кінець зверху.</p>
+        <ul class="menu2 column-reverse">
+            <li class="item"><a href="" class="link">Home page</a></li>
+            <li class="item"><a href="" class="link">Blog</a></li>
+            <li class="item"><a href="" class="link">Podcasts</a></li>
+            <li class="item"><a href="" class="link">Contacts</a></li>
+        </ul>
+    </section>
+
+    <!-- Властивість justify-content -->
+    <section class="section">
+        <h2 class="section-title">justify-content</h2>
+        <h3 class="title">justify-content: flex-start</h3>
+        <p class="section-text">елементи притискаються до старту осі. Це значення за замовчуванням.</p>
+        <ul class="menu3">
+            <li class="item"><a href="" class="link">Home page</a></li>
+            <li class="item"><a href="" class="link">Blog</a></li>
+            <li class="item"><a href="" class="link">Podcasts</a></li>
+            <li class="item"><a href="" class="link">Contacts</a></li>
+        </ul>
+
+        <h3 class="title">justify-content: flex-end</h3>
+        <p class="section-text">елементи притискаються до кінця осі.</p>
+        <ul class="menu3 flex-end">
+            <li class="item"><a href="" class="link">Home page</a></li>
+            <li class="item"><a href="" class="link">Blog</a></li>
+            <li class="item"><a href="" class="link">Podcasts</a></li>
+            <li class="item"><a href="" class="link">Contacts</a></li>
+        </ul>
+
+        <h3 class="title">justify-content: center</h3>
+        <p class="section-text">елементи центруються на осі.</p>
+        <ul class="menu3 center">
+            <li class="item"><a href="" class="link">Home page</a></li>
+            <li class="item"><a href="" class="link">Blog</a></li>
+            <li class="item"><a href="" class="link">Podcasts</a></li>
+            <li class="item"><a href="" class="link">Contacts</a></li>
+        </ul>
+
+        <h3 class="title">justify-content: space-between</h3>
+        <p class="section-text">елементи рівномірно розподіляються на головній осі. Перший елемент встановлюється на
+            початку осі, а останній - в кінці.</p>
+        <ul class="menu3 space-between">
+            <li class="item"><a href="" class="link">Home page</a></li>
+            <li class="item"><a href="" class="link">Blog</a></li>
+            <li class="item"><a href="" class="link">Podcasts</a></li>
+            <li class="item"><a href="" class="link">Contacts</a></li>
+        </ul>
+
+        <h3 class="title">justify-content: space-around</h3>
+        <p class="section-text">елементи розподіляються рівномірно, але лівий і правий елемент відстають від меж
+            контейнера на половину
+            проміжку між
+            іншими елементами.</p>
+        <ul class="menu3 space-around">
+            <li class="item"><a href="" class="link">Home page</a></li>
+            <li class="item"><a href="" class="link">Blog</a></li>
+            <li class="item"><a href="" class="link">Podcasts</a></li>
+            <li class="item"><a href="" class="link">Contacts</a></li>
+        </ul>
+
+        <h3 class="title">justify-content: space-evenly</h3>
+        <p class="section-text">елементи розподіляються таким чином, що відстань між елементами, і від крайніх елементів
+            до меж контейнера, -
+            однакова.</p>
+        <ul class="menu3 space-evenly">
+            <li class="item"><a href="" class="link">Home page</a></li>
+            <li class="item"><a href="" class="link">Blog</a></li>
+            <li class="item"><a href="" class="link">Podcasts</a></li>
+            <li class="item"><a href="" class="link">Contacts</a></li>
+        </ul>
+    </section>
+
+    <!--Властивість flex-wrap  -->
+    <section class="section">
+        <h3 class="title">Властивість flex-wrap</h3>
+        <p class="section-text">Властивість flex-wrap дозволяє перетворити однорядковий контейнер у багаторядковий.
+            Елементи будуть додаватися в рядок
+            доти, доки в ньому буде місце, після чого буде автоматично створений ще один рядок</p>
+        <ul class="menu4 flex-wrap ">
+            <li class="item"><a href="" class="link">Home page</a></li>
+            <li class="item"><a href="" class="link">Blog</a></li>
+            <li class="item"><a href="" class="link">Podcasts</a></li>
+            <li class="item"><a href="" class="link">Contacts</a></li>
+            <li class="item"><a href="" class="link">Home page</a></li>
+            <li class="item"><a href="" class="link">Blog</a></li>
+            <li class="item"><a href="" class="link">Podcasts</a></li>
+            <li class="item"><a href="" class="link">Contacts</a></li>
+            <li class="item"><a href="" class="link">Home page</a></li>
+            <li class="item"><a href="" class="link">Blog</a></li>
+            <li class="item"><a href="" class="link">Podcasts</a></li>
+            <li class="item"><a href="" class="link">Contacts</a></li>
+        </ul>
+    </section>
+
+</body>
+
+</html>
