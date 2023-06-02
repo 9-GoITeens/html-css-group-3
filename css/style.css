@@ -72,7 +72,20 @@ body {
     text-decoration: underline;
 }
 
+.button{
+    color: #3a21f3;
+    background-color: #41d714;
+    border: none;
+    cursor: pointer;
 
+    padding: 20px;
+}
+
+.button:hover,
+.button:focus{
+    color: #fff;
+    background-color: #f1e50b;
+}
 /*  display: flex | inline-flex */
 .menu1 {
     list-style: none;
@@ -109,6 +122,14 @@ body {
     text-decoration: underline;
 }
 
+.inline{
+width: 300px;
+background: antiquewhite;
+padding: 20px;
+border: 2px solid yellow;
+margin: 20px;
+}
+
 /* Властивість flex-direction */
 
 .menu2 {
@@ -143,7 +164,7 @@ body {
     display: block;
     padding: 10px;
     border-radius: 4px;
-    
+
     text-decoration: none;
     color: black;
     background-color: #fff;
