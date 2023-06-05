@@ -1,5 +1,4 @@
 body {
- 
     font-family: sans-serif;
     background-color: #f9f9fd;
 }
@@ -255,5 +254,16 @@ margin: 20px;
 }
 
 /* Container */
+.box{
+    width: 600px;
+    height: 300px;
+    background-color: teal;
+}
 
-
+.container{
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
+}
