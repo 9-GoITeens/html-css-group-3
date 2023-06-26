@@ -187,9 +187,9 @@ img {
 .grids {
 display: flex;
 flex-wrap: wrap;
-gap: 10px;
+gap: 30px;
 }
 
 .grids>.item {
-flex-basis: calc((100% - 20px) / 3);
+flex-basis: calc((100% - 30px) / 3);
 }
