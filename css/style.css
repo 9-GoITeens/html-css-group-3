@@ -8,7 +8,7 @@
 
 .section {
     padding-top: 50px;
-    padding-bottom: 50px;
+
 }
 
 .list {
@@ -20,6 +20,53 @@
 a{
     text-decoration: none;
 }
+
+
+.services-item{
+    display: flex;
+    align-items: center;
+}
+
+.services-item:not(:last-child){
+    margin-bottom: 40px;
+}
+
+.services-item::before{
+    content: '';
+    background-image: url(../img/free-icon-font-apps-3917618.svg);
+    background-size: contain;
+  display: block;
+  width: 40px;
+  height: 40px;
+
+  margin-right: 30px;
+border-radius: 50%;
+}
+
+.services-item:hover::before{
+    background-color: blue;
+}
+
+
+.services-item::after {
+content: '';
+    background-image: url(../img/free-icon-font-apps-3917618.svg);
+    background-size: contain;
+    display: block;
+    width: 40px;
+    height: 40px;
+
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+.services-item:hover::after {
+    background-color: teal;
+}
+.services-item:hover{
+    color: red;
+}
+
 
 
 
