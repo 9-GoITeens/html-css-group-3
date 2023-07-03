@@ -21,6 +21,26 @@ a{
     text-decoration: none;
 }
 
+/* Background */
+
+.banner {
+    padding: 250px 0;
+}
+
+.banner-content {
+    max-width: 500px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.page-title,
+.description {
+    font-size: 14px;
+    color: cornflowerblue;
+}
+
+/* Псевдоелементи */
 
 .services-item{
     display: flex;
