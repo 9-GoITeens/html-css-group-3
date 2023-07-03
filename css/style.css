@@ -8,7 +8,6 @@
 
 .section {
     padding-top: 50px;
-
 }
 
 .list {
@@ -17,14 +16,27 @@
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
 /* Background */
 
 .banner {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+    /* height: 760px; */
     padding: 250px 0;
+    /* background-color: antiquewhite; */
+    /* background-image: url(../img/flower.jpg); */
+    background-image: url(../img/pexels-photo-92380.webp);
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-y; */
+    /* background-size: contain; */
+    background-size: cover;
+
+    background-color: antiquewhite;
 }
 
 .banner-content {
@@ -37,39 +49,38 @@ a{
 .page-title,
 .description {
     font-size: 14px;
-    color: cornflowerblue;
+    color: wheat;
 }
 
 /* Псевдоелементи */
 
-.services-item{
+.services-item {
     display: flex;
     align-items: center;
 }
 
-.services-item:not(:last-child){
+.services-item:not(:last-child) {
     margin-bottom: 40px;
 }
 
-.services-item::before{
+.services-item::before {
     content: '';
     background-image: url(../img/free-icon-font-apps-3917618.svg);
     background-size: contain;
-  display: block;
-  width: 40px;
-  height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
 
-  margin-right: 30px;
-border-radius: 50%;
+    margin-right: 30px;
+    border-radius: 50%;
 }
 
-.services-item:hover::before{
+.services-item:hover::before {
     background-color: blue;
 }
 
-
 .services-item::after {
-content: '';
+    content: '';
     background-image: url(../img/free-icon-font-apps-3917618.svg);
     background-size: contain;
     display: block;
@@ -83,12 +94,6 @@ content: '';
 .services-item:hover::after {
     background-color: teal;
 }
-.services-item:hover{
+.services-item:hover {
     color: red;
 }
-
-
-
-
-
-
